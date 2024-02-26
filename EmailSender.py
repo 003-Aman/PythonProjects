@@ -1,6 +1,6 @@
 #Shuru ma import the necessary modules
 #you have to go to your google account and set up the two factor authentication first
-from email.message import EmailMessage
+from email.message import EmailMessage #EmailMessage is a class
 #Email message module le allows us to create email messages with Python
 import ssl
 # I dont know the modules but SSL(Secure Sockets Layer)encryption provides access to ssl
