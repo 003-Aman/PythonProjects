@@ -23,7 +23,7 @@ em = EmailMessage() #EmailMessage object has been created, em chai object name h
 em['From']= email_sender
 em['To']= email_receiver
 em['subject']=subject
-em.set_content(body)# and methods
+em.set_content(body)# and methods(set_content() is a built-in function which is provided by EmailMessage class from the email.message module.hamle banako haina yo)
 
 #Establishing an SSL Context
 context =ssl.create_default_context() # so basically this line creates a default SSL context, which is necessaty for establishing a secure connection to Gmail's SMTP server.
