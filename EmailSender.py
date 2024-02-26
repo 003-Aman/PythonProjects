@@ -1,4 +1,5 @@
 #Shuru ma import the necessary modules
+#you have to go to your google account and set up the two factor authentication first
 from email.message import EmailMessage
 #Email message module le allows us to create email messages with Python
 import ssl
